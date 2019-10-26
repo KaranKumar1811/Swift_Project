@@ -1,0 +1,80 @@
+
+{
+    "jsondata": [
+    {
+    "@class": "ca.lambton.payroll.employee.Intern",
+    "id": 1,
+    "name": "Karan Kumar",
+    "age": 22,
+    "vehicle": {
+    "@class": "Motorcycle",
+    "id": 0,
+    "make": "Honda",
+    "plate": "ABCD-123",
+    "model": "MODEL 1",
+    "year" : "2015",
+    "type": "Motorcycle"
+    },
+    "schoolName": "Lambton College",
+    "type": "Intern"
+    },
+    {
+    "@class": "ca.lambton.payroll.employee.FullTime",
+    "id": 2,
+    "name": "Ankita Jain",
+    "age": 24,
+    "vehicle": {
+    "@class": "Car",
+    "id": 0,
+    "make": "BMW",
+    "plate": "EFGH-123 ",
+    "model": "MODEL 2",
+    "year" : "2015",
+    "doors" : 2,
+    "type":""
+    },
+    "salary": 1500.0,
+    "bonus": 300.0,
+    "type": "FullTime"
+    },
+    {
+    "@class": "ca.lambton.payroll.employee.FixedBasedPartTime",
+    "id": 3,
+    "name": "Sandeep Singh",
+    "age": 24,
+    "vehicle": {
+    "@class": "Motorcycle",
+    "id": 0,
+    "make": "Hero",
+    "plate": "EFGH-875 ",
+    "model": "MODEL 3",
+    "year" : "2018",
+    "type": "Motorcycle"
+    },
+    "rate": 20.0,
+    "hoursWorked": 165,
+    "fixedAmount": 130.0,
+    "type": "PartTime_Fixed_Amount"
+    },
+    {
+    "@class": "ca.lambton.payroll.employee.CommissionBasedPartTime",
+    "id": 4,
+    "name": "Kamal Kaur",
+    "age": 23,
+    
+    "rate": 40.0,
+    "hoursWorked": 17,
+    "commissionPercent": 20,
+    "type": "PartTime_Commissioned",
+    "vehicle": {
+        "@class": "Car",
+        "id": 0,
+        "make": "Honda",
+        "plate": "IJKL-123",
+        "model": "MODEL 4",
+        "year" : "2015",
+        "type": "Car"
+    }
+    }
+    ]
+}
